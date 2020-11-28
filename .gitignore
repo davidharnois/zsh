@@ -1,0 +1,20 @@
+## .gitignore
+
+[user]
+    email = davidharnois@gmail.com
+    name = David Harnois
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+    tree = log --graph --pretty=oneline --abbrev-commit --decorate --color
+    wdiff = diff --color-words
+
+[push]
+    default = current
+[core]
+    excludesfile = ~/.gitignore_global
+
